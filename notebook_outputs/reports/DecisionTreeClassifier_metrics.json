@@ -1,0 +1,78 @@
+{
+  "model_name": "DecisionTreeClassifier",
+  "best_validation_params": {
+    "max_depth": 3,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1
+  },
+  "train_metrics": {
+    "accuracy": 0.8429752066115702,
+    "precision": 0.8686868686868687,
+    "recall": 0.7747747747747747,
+    "f1": 0.819047619047619,
+    "confusion_matrix": [
+      [
+        118,
+        13
+      ],
+      [
+        25,
+        86
+      ]
+    ],
+    "roc_auc": 0.9073653806478236
+  },
+  "validation_metrics": {
+    "accuracy": 0.9333333333333333,
+    "precision": 0.9285714285714286,
+    "recall": 0.9285714285714286,
+    "f1": 0.9285714285714286,
+    "confusion_matrix": [
+      [
+        15,
+        1
+      ],
+      [
+        1,
+        13
+      ]
+    ],
+    "roc_auc": 0.9263392857142857
+  },
+  "train_val_metrics_after_refit": {
+    "accuracy": 0.8529411764705882,
+    "precision": 0.8761061946902655,
+    "recall": 0.792,
+    "f1": 0.8319327731092437,
+    "confusion_matrix": [
+      [
+        133,
+        14
+      ],
+      [
+        26,
+        99
+      ]
+    ],
+    "roc_auc": 0.9117278911564626
+  },
+  "test_metrics": {
+    "accuracy": 0.8064516129032258,
+    "precision": 0.7857142857142857,
+    "recall": 0.7857142857142857,
+    "f1": 0.7857142857142857,
+    "confusion_matrix": [
+      [
+        14,
+        3
+      ],
+      [
+        3,
+        11
+      ]
+    ],
+    "roc_auc": 0.8046218487394958
+  },
+  "saved_model_path": "..\\notebook_outputs\\models\\DecisionTreeClassifier.joblib",
+  "prediction_path": "..\\notebook_outputs\\predictions\\DecisionTreeClassifier_test_predictions.csv"
+}

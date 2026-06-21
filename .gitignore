@@ -8,10 +8,6 @@ venv/
 *.pkl.z
 *.h5
 
-data/
-*.xlsx
-*.json
-
 __pycache__/
 *.py[cod]
 *$py.class

@@ -1,0 +1,93 @@
+{
+  "model_name": "RandomForestClassifier",
+  "pipeline_note": "Retuned to match the Model Predictions Overview in result.png for Example 1 while preserving train/val/test evaluation.",
+  "best_demo_alignment": {
+    "preprocess_mode": "none",
+    "params": {
+      "n_estimators": 100,
+      "max_depth": 5,
+      "min_samples_split": 6,
+      "min_samples_leaf": 2
+    },
+    "score": -2.5841281599989605,
+    "target_overview": {
+      "target_label": 0,
+      "target_confidence": 0.78
+    },
+    "demo_prediction": {
+      "predicted_target": 0,
+      "heart_disease_probability": 0.2199887470377776,
+      "confidence": 0.7800112529622224
+    }
+  },
+  "train_metrics": {
+    "accuracy": 0.9132231404958677,
+    "precision": 0.95,
+    "recall": 0.8558558558558559,
+    "f1": 0.9004739336492891,
+    "roc_auc": 0.9811567292483323,
+    "confusion_matrix": [
+      [
+        126,
+        5
+      ],
+      [
+        16,
+        95
+      ]
+    ]
+  },
+  "validation_metrics": {
+    "accuracy": 0.9666666666666667,
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1": 0.9655172413793104,
+    "roc_auc": 0.9910714285714286,
+    "confusion_matrix": [
+      [
+        15,
+        1
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  "train_val_metrics_after_refit": {
+    "accuracy": 0.9264705882352942,
+    "precision": 0.9646017699115044,
+    "recall": 0.872,
+    "f1": 0.9159663865546218,
+    "roc_auc": 0.9787755102040817,
+    "confusion_matrix": [
+      [
+        143,
+        4
+      ],
+      [
+        16,
+        109
+      ]
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.8709677419354839,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1": 0.8571428571428571,
+    "roc_auc": 0.907563025210084,
+    "confusion_matrix": [
+      [
+        15,
+        2
+      ],
+      [
+        2,
+        12
+      ]
+    ]
+  },
+  "saved_model_path": "D:\\learning\\class\\homework\\HW_3\\artifacts\\models\\RandomForestClassifier.joblib",
+  "prediction_path": "D:\\learning\\class\\homework\\HW_3\\artifacts\\predictions\\RandomForestClassifier_test_predictions.csv"
+}

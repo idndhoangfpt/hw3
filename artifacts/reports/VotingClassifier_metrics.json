@@ -1,0 +1,95 @@
+{
+  "model_name": "VotingClassifier",
+  "pipeline_note": "Soft voting ensemble rebuilt from the result.png-aligned base pipelines.",
+  "best_demo_alignment": {
+    "weights": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1
+    ],
+    "score": -2.4269712593638593,
+    "target_overview": {
+      "target_label": 0,
+      "target_confidence": 0.7
+    },
+    "demo_prediction": {
+      "predicted_target": 0,
+      "heart_disease_probability": 0.2993308916815141,
+      "confidence": 0.700669108318486
+    }
+  },
+  "train_metrics": {
+    "accuracy": 0.9462809917355371,
+    "precision": 0.9622641509433962,
+    "recall": 0.918918918918919,
+    "f1": 0.9400921658986175,
+    "roc_auc": 0.9907846778075786,
+    "confusion_matrix": [
+      [
+        127,
+        4
+      ],
+      [
+        9,
+        102
+      ]
+    ]
+  },
+  "validation_metrics": {
+    "accuracy": 0.9333333333333333,
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1": 0.9333333333333333,
+    "roc_auc": 0.9955357142857143,
+    "confusion_matrix": [
+      [
+        14,
+        2
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  "train_val_metrics_after_refit": {
+    "accuracy": 0.9411764705882353,
+    "precision": 0.957983193277311,
+    "recall": 0.912,
+    "f1": 0.9344262295081968,
+    "roc_auc": 0.9893333333333333,
+    "confusion_matrix": [
+      [
+        142,
+        5
+      ],
+      [
+        11,
+        114
+      ]
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.8387096774193549,
+    "precision": 0.8,
+    "recall": 0.8571428571428571,
+    "f1": 0.8275862068965517,
+    "roc_auc": 0.9117647058823528,
+    "confusion_matrix": [
+      [
+        14,
+        3
+      ],
+      [
+        2,
+        12
+      ]
+    ]
+  },
+  "saved_model_path": "D:\\learning\\class\\homework\\HW_3\\artifacts\\models\\VotingClassifier.joblib",
+  "prediction_path": "D:\\learning\\class\\homework\\HW_3\\artifacts\\predictions\\VotingClassifier_test_predictions.csv"
+}

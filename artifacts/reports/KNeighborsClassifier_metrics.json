@@ -1,0 +1,78 @@
+{
+  "model_name": "KNeighborsClassifier",
+  "best_validation_params": {
+    "n_neighbors": 9,
+    "weights": "uniform",
+    "p": 2
+  },
+  "train_metrics": {
+    "accuracy": 0.8429752066115702,
+    "precision": 0.8543689320388349,
+    "recall": 0.7927927927927928,
+    "f1": 0.822429906542056,
+    "confusion_matrix": [
+      [
+        116,
+        15
+      ],
+      [
+        23,
+        88
+      ]
+    ],
+    "roc_auc": 0.9229764115260298
+  },
+  "validation_metrics": {
+    "accuracy": 0.8666666666666667,
+    "precision": 0.8125,
+    "recall": 0.9285714285714286,
+    "f1": 0.8666666666666667,
+    "confusion_matrix": [
+      [
+        13,
+        3
+      ],
+      [
+        1,
+        13
+      ]
+    ],
+    "roc_auc": 0.9419642857142857
+  },
+  "train_val_metrics_after_refit": {
+    "accuracy": 0.8529411764705882,
+    "precision": 0.8761061946902655,
+    "recall": 0.792,
+    "f1": 0.8319327731092437,
+    "confusion_matrix": [
+      [
+        133,
+        14
+      ],
+      [
+        26,
+        99
+      ]
+    ],
+    "roc_auc": 0.9287074829931973
+  },
+  "test_metrics": {
+    "accuracy": 0.7419354838709677,
+    "precision": 0.6875,
+    "recall": 0.7857142857142857,
+    "f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        12,
+        5
+      ],
+      [
+        3,
+        11
+      ]
+    ],
+    "roc_auc": 0.8550420168067226
+  },
+  "saved_model_path": "..\\notebook_outputs\\models\\KNeighborsClassifier.joblib",
+  "prediction_path": "..\\notebook_outputs\\predictions\\KNeighborsClassifier_test_predictions.csv"
+}

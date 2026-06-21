@@ -1,0 +1,92 @@
+{
+  "model_name": "GradientBoostingClassifier",
+  "pipeline_note": "Retuned to match the Model Predictions Overview in result.png for Example 1 while preserving train/val/test evaluation.",
+  "best_demo_alignment": {
+    "preprocess_mode": "none",
+    "params": {
+      "n_estimators": 50,
+      "learning_rate": 0.2,
+      "max_depth": 2
+    },
+    "score": -2.4773474673368487,
+    "target_overview": {
+      "target_label": 0,
+      "target_confidence": 0.88
+    },
+    "demo_prediction": {
+      "predicted_target": 0,
+      "heart_disease_probability": 0.1210790598888435,
+      "confidence": 0.8789209401111565
+    }
+  },
+  "train_metrics": {
+    "accuracy": 0.9545454545454546,
+    "precision": 0.9716981132075472,
+    "recall": 0.9279279279279279,
+    "f1": 0.9493087557603687,
+    "roc_auc": 0.9878275221786672,
+    "confusion_matrix": [
+      [
+        128,
+        3
+      ],
+      [
+        8,
+        103
+      ]
+    ]
+  },
+  "validation_metrics": {
+    "accuracy": 0.8333333333333334,
+    "precision": 0.7647058823529411,
+    "recall": 0.9285714285714286,
+    "f1": 0.8387096774193549,
+    "roc_auc": 0.9642857142857143,
+    "confusion_matrix": [
+      [
+        12,
+        4
+      ],
+      [
+        1,
+        13
+      ]
+    ]
+  },
+  "train_val_metrics_after_refit": {
+    "accuracy": 0.9338235294117647,
+    "precision": 0.9572649572649573,
+    "recall": 0.896,
+    "f1": 0.9256198347107438,
+    "roc_auc": 0.9835102040816327,
+    "confusion_matrix": [
+      [
+        142,
+        5
+      ],
+      [
+        13,
+        112
+      ]
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.8709677419354839,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1": 0.8571428571428571,
+    "roc_auc": 0.9201680672268907,
+    "confusion_matrix": [
+      [
+        15,
+        2
+      ],
+      [
+        2,
+        12
+      ]
+    ]
+  },
+  "saved_model_path": "D:\\learning\\class\\homework\\HW_3\\artifacts\\models\\GradientBoostingClassifier.joblib",
+  "prediction_path": "D:\\learning\\class\\homework\\HW_3\\artifacts\\predictions\\GradientBoostingClassifier_test_predictions.csv"
+}

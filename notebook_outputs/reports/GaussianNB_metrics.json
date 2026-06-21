@@ -1,0 +1,76 @@
+{
+  "model_name": "GaussianNB",
+  "best_validation_params": {
+    "var_smoothing": 1e-11
+  },
+  "train_metrics": {
+    "accuracy": 0.8305785123966942,
+    "precision": 0.8301886792452831,
+    "recall": 0.7927927927927928,
+    "f1": 0.8110599078341014,
+    "confusion_matrix": [
+      [
+        113,
+        18
+      ],
+      [
+        23,
+        88
+      ]
+    ],
+    "roc_auc": 0.9050271645691493
+  },
+  "validation_metrics": {
+    "accuracy": 0.9666666666666667,
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1": 0.9655172413793104,
+    "confusion_matrix": [
+      [
+        15,
+        1
+      ],
+      [
+        0,
+        14
+      ]
+    ],
+    "roc_auc": 0.9955357142857143
+  },
+  "train_val_metrics_after_refit": {
+    "accuracy": 0.8455882352941176,
+    "precision": 0.8429752066115702,
+    "recall": 0.816,
+    "f1": 0.8292682926829268,
+    "confusion_matrix": [
+      [
+        128,
+        19
+      ],
+      [
+        23,
+        102
+      ]
+    ],
+    "roc_auc": 0.9139591836734694
+  },
+  "test_metrics": {
+    "accuracy": 0.7741935483870968,
+    "precision": 0.7058823529411765,
+    "recall": 0.8571428571428571,
+    "f1": 0.7741935483870968,
+    "confusion_matrix": [
+      [
+        12,
+        5
+      ],
+      [
+        2,
+        12
+      ]
+    ],
+    "roc_auc": 0.8823529411764706
+  },
+  "saved_model_path": "..\\notebook_outputs\\models\\GaussianNB.joblib",
+  "prediction_path": "..\\notebook_outputs\\predictions\\GaussianNB_test_predictions.csv"
+}
