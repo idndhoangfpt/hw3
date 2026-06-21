@@ -1,7 +1,6 @@
 .venv/
 venv/
 
-.streamlit/config.toml
 .streamlit/secrets.toml
 
 *.pkl
